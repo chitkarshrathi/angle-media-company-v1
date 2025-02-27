@@ -3,15 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Helvetica, sans-serif;
-        }
-    </style>
     <title>Angle Media Company</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -21,13 +14,42 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#what-we-do">What We Do</a></li>
-                <li><a href="#who-are-we">Who Are We</a></li>
+                <li><a href="#what-we-do">Services</a></li>
+                <li><a href="#who-are-we">About</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
             </ul>
         </nav>
-        <! -- <a href="#grow-your-brand" class="cta-button">Grow Your Brand</a> -->
-
+        <div class="cta-container">
+            <a href="#grow-your-brand" class="cta-button">Grow Your Brand</a>
+        </div>
     </header>
+    
+    <section class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="assets/vids/home.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section class="intro-text">
+        <h2>CREATIVE MIND, CREATIVE WORKS.</h2>
+        <h1>We Design beautiful <span class="highlight">digital products</span>, <span class="highlight">brands</span>, and <span class="highlight">experiences</span>.</h1>
+        <a href="#" class="black-red-gradient">Get Started</a>
+    </section>
+
+    <section class="growth-section">
+        <h2>ON YOUR MARKS. GET SET. <span class="highlight">GROW.</span></h2>
+        
+        <div class="growth-container">
+            <div class="growth-image">
+                <img src="assets/images/lineartwebsite.gif" alt="Growth Process">
+            </div>
+            
+            <div class="growth-steps">
+                <span class="step-left">Strategize</span>
+                <span class="step-center">Execute</span>
+                <span class="step-right">Grow</span>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
