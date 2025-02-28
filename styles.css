@@ -271,7 +271,25 @@ nav ul li a:hover {
     margin-top: 5px;
 }
 
+.booking-section {
+    text-align: center;
+    color: #fff;
+    font-size: 55px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: -30px;
+}
 
+.booking-section p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.booking-section .highlight {
+    color: #bf1b1b; /* Red color for emphasis */
+}
 
 
 /* Responsive Design */
