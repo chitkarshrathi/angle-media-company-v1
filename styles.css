@@ -241,7 +241,7 @@ nav ul li a:hover {
 .clients-container {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 200px;
     margin-bottom: 40px;
 }
 
@@ -253,22 +253,22 @@ nav ul li a:hover {
 }
 
 .client-item img {
-    width: 2in; /* Adjust logo size */
-    height: 1in; /* Fixed height to align logos */
+    width: 2.5in; /* Adjust logo size */
+    height: 1.5in; /* Fixed height to align logos */
     object-fit: contain; /* Keeps original aspect ratio */
 }
 
 .client-name {
     font-size: 18px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .client-work {
     font-size: 14px;
     font-weight: normal;
     color: #ccc;
-    margin-top: 5px;
+    margin-top: -10px;
 }
 
 .booking-section {
