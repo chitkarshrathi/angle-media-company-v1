@@ -344,7 +344,7 @@ footer {
 
 .footer-section h3 {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .footer-section ul {
@@ -373,14 +373,23 @@ footer {
     text-decoration: none;
 }
 
+.footer-section p {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+    line-height: 0; /* Reduce space between lines */
+    margin-top: 1px; /* Reduce gap above text */
+}
+
 .footer-section a:hover {
     color: #bf1b1b;
 }
 
 .footer-section img {
+    margin-top: 12px;
     width: 300px;
     height: auto; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 
