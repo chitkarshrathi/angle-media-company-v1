@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angle Media Company</title>
+    <link rel="icon" href="assets/images/logowithoutbg.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/onelinewhite.png" alt="Angle Media Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#what-we-do">Services</a></li>
+                <li><a href="#who-are-we">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="cta-container">
+            <a href="#grow-your-brand" class="static-black-red-button">Grow Your Brand</a>
+        </div>
+    </header>
+    <body>
+
+        <section class="contact-container">
+            <!-- Left Section -->
+            <div class="contact-left">
+                <h1>Let's Chat</h1>
+                <h2>Tell us about your project.</h2>
+                <p class="subtext">Let's <span class= "highlight">grow </span>your brand together.</p>
+    
+                <div class="contact-details">
+                    <!-- Email -->
+                    <p>
+                        <a href="mailto:contact.anglemedia@gmail.com.com">
+                            <img src="assets/images/icons8-email-50.png" alt="Email Icon"> contact.anglemedia@gmail.com
+                        </a>
+                    </p>
+                
+                    <!-- Phone -->
+                    <p>
+                        <a href="tel:+91 9643130151">
+                            <img src="assets/images/icons8-phone-50.png" alt="Phone Icon"> +91 96431 30151
+                        </a>
+                    </p>
+                
+                    <!-- WhatsApp -->
+                    <p>
+                        <a href="https://wa.me/919643130151" target="_blank">
+                            <img src="assets/images/icons8-whatsapp-50.png" alt="WhatsApp Icon"> Chat with us
+                        </a>
+                    </p>
+                </div>
+            </div>
+                <div class="contact-right">
+                    <div id="my-cal-inline"></div>
+                </div>
+            </section>
+        
+            <!-- Cal.com Inline Embed Code -->
+            <script type="text/javascript">
+              (function (C, A, L) { 
+                let p = function (a, ar) { a.q.push(ar); }; 
+                let d = C.document; 
+                C.Cal = C.Cal || function () { 
+                  let cal = C.Cal; 
+                  let ar = arguments; 
+                  if (!cal.loaded) { 
+                    cal.ns = {}; 
+                    cal.q = cal.q || []; 
+                    d.head.appendChild(d.createElement("script")).src = A; 
+                    cal.loaded = true; 
+                  } 
+                  if (ar[0] === L) { 
+                    const api = function () { p(api, arguments); }; 
+                    const namespace = ar[1]; 
+                    api.q = api.q || []; 
+                    if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;
+                  } 
+                  p(cal, ar); 
+                }; 
+              })(window, "https://app.cal.com/embed/embed.js", "init");
+        
+              Cal("init", "30min", {origin:"https://cal.com"});
+        
+              Cal.ns["30min"]("inline", {
+                elementOrSelector:"#my-cal-inline",
+                config: {"layout":"month_view"},
+                calLink: "angle-media-company/30min",
+              });
+        
+              Cal.ns["30min"]("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+            </script>
+            </div>
+
+            <a href="https://wa.me/919643130151" target="_blank" class="whatsapp-float">
+                <img src="assets/images/icons8-whatsapp-50.png" alt="WhatsApp Icon">
+            </a>
+    
+    <footer>
+        <div class="footer-container">
+            <!-- Left Section: Quick Links -->
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <!-- Middle Section: Queries -->
+            <div class="footer-section queries">
+                <h3>Have a Query?</h3>
+                <p>Email us at:</p>
+                <a href="mailto:contact.anglemedia@gmail.com">contact.anglemedia@gmail.com</a>
+            </div>
+    
+            <!-- Right Section: Logo + Copyright -->
+            <div class="footer-section branding">
+                <img src="assets/images/onelinewhite.png" alt="Angle Media Logo">
+                <p>&copy; 2025 Angle Media Company. All rights reserved.</p>
+                <p>Designed and Developed by Angle Media Company.</p>
+            </div>
+        </div>
+    </footer>
+
+    </body>
+</html>
