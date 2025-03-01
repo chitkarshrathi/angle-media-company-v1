@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff5722;
+    color: #bf1b1b;
 }
 
 .cta-container {
@@ -127,7 +127,7 @@ nav ul li a:hover {
     font-family: inherit;
     color: #fff;
     text-decoration: none;
-    transition: background-color 0.8s ease-in-out;
+    transition: color 2s ease-in-out;
     place-content: center;
     border: 1px solid grey;
     border-color: grey;
@@ -296,6 +296,29 @@ nav ul li a:hover {
 
 .booking-section .highlight {
     color: #bf1b1b; /* Red color for emphasis */
+}
+
+.static-black-red-button {
+    display: inline-flex;
+    padding: 0.5em 1.2em;
+    background: linear-gradient(90deg, black, red); /* Always gradient */
+    font-family: inherit;
+    color: #fff;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease;
+    place-content: center;
+    border: 1px solid grey;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Hover Effect - Subtle Glow */
+.static-black-red-button:hover, 
+.static-black-red-button:focus {
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.6); /* Red glow */
+    transform: scale(1.05); /* Slight enlargement */
 }
 
 /* Footer Styles */
