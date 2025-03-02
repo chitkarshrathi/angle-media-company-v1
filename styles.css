@@ -453,7 +453,8 @@ nav ul li a:hover {
 
 .mission h2, .vision h2, .about-section h2 {
     color: #bf1b1b; /* Red color */
-    font-size: 52px;
+    font-size: 65px;
+    font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -472,6 +473,60 @@ nav ul li a:hover {
     border-radius: 5px;
     text-align: left;
 }
+
+/* Founders Section */
+.founders-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    margin-top: -30px;
+}
+
+/* Section Heading */
+.founders-container h2 {
+    font-size: 65px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #bf1b1b; /* Red heading */
+}
+
+/* Founders Grid */
+.founders {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+/* Individual Founder */
+.founder {
+    text-align: center;
+    max-width: 250px;
+}
+
+.founder img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+/* Founder Name */
+.founder h3 {
+    color: #bf1b1b; /* Red name */
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+/* Founder Title */
+.founder p {
+    color: white; /* White title */
+    font-size: 16px;
+    margin-top: -15px;
+    font-weight: lighter;
+}
+
 
 
 /* Footer Styles */
