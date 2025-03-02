@@ -428,6 +428,51 @@ nav ul li a:hover {
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* About Page Container */
+.about-container {
+    width: 80%;
+    margin: 50px auto;
+    color: white;
+}
+
+/* Mission & Vision Section */
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.mission, .vision {
+    flex: 1;
+    background-color: black;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.mission h2, .vision h2, .about-section h2 {
+    color: #bf1b1b; /* Red color */
+    font-size: 52px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mission p, .vision p, .about-section p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: lighter;
+}
+
+/* About Section */
+.about-section {
+    margin-top: 0px;
+    background-color: black;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: left;
+}
+
 
 /* Footer Styles */
 footer {
