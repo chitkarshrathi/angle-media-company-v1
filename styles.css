@@ -528,6 +528,28 @@ nav ul li a:hover {
     font-weight: lighter;
 }
 
+/* Our Impact Section */
+.impact-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Heading in Red */
+.impact-container h2 {
+    font-size: 65px;
+    font-weight: 500;
+    color: #bf1b1b; /* Red heading */
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+/* Impact Image */
+.impact-container img {
+    max-width: 1000px; /* Adjust as needed */
+    width: 800px;
+    height: auto;
+}
 
 
 /* Footer Styles */
@@ -627,5 +649,10 @@ footer {
 
     .footer-section {
         margin-bottom: 20px;
+    }
+
+    .founders {
+        flex-direction: column;
+        align-items: center;
     }
 }
