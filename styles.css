@@ -497,6 +497,7 @@ nav ul li a:hover {
     justify-content: center;
     gap: 200px;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 /* Individual Founder */
