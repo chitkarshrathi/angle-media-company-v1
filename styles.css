@@ -691,6 +691,41 @@ nav ul li a:hover {
     background-color: white;
 }
 
+.approach {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+/* The top horizontal line - same for all headings */
+.top-line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+/* Styling for each section */
+.approach-item h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #bf1b1b;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* Paragraph text */
+.approach-item p {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+}
+
+
+
 /* Footer Styles */
 footer {
     background-color: #000;
