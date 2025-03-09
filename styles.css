@@ -724,6 +724,41 @@ nav ul li a:hover {
     text-align: left;
 }
 
+.achievement-map {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%; /* Full-screen height */
+    background-color: black;
+    padding: 0 5%;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-container {
+    width: 40%;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.image-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 6in;
+    height: 6in;
+    object-fit: contain;
+}
+
 
 
 /* Footer Styles */
