@@ -841,6 +841,13 @@ footer {
         padding: 10px 20px;
     }
 
+    .logo img {
+        max-width: 300px; /* Adjust size for mobile */
+        height: auto;
+        object-fit: contain;
+        margin-left: -12px; /* Ensure it doesn’t get cut off */
+    }
+
     nav ul {
         display: none; /* Hide menu initially */
         flex-direction: column;
